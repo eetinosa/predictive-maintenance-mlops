@@ -53,3 +53,25 @@ The application is structured into three main components:
    ```bash
    git clone https://github.com/eetinosa/predictive-maintenance-mlops.git
    cd predictive-maintenance-mlops
+   ```
+2.  **Set up the environment:**
+    ```bash
+    # Create a virtual environment
+    python -m venv venv
+    # Activate the environment
+    source venv/bin/activate
+    # Install dependencies
+    pip install -r requirements.txt
+    ```
+3. **Database setup:**
+    ```bash
+    # Initialize the database schema
+    python src/db_initialize.py
+     ```
+
+4. **Run the application:**
+    ```bash
+    python src/app.py
+    ```
+
+5.  **Visit the application: Open your web browser and go to http://localhost:5000 to view the application.**
