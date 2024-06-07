@@ -57,9 +57,9 @@ The application is structured into three main components:
 2.  **Set up the environment:**
     ```bash
     # Create a virtual environment
-    python -m venv venv
+    python -m venv predict_app
     # Activate the environment
-    source venv/bin/activate
+    source predict_app/bin/activate
     # Install dependencies
     pip install -r requirements.txt
     ```
