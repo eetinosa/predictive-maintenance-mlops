@@ -8,3 +8,6 @@ __pycache__/
 
 # Data
 data/
+
+#dependency
+predict_app/
