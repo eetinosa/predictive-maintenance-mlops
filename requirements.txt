@@ -26,3 +26,6 @@ kafka-python==2.0.2  # Optional, for Kafka integration
 # Utilities
 requests==2.28.1
 python-dotenv==0.20.0  # For loading environment variables
+
+# time series analysis
+statsmodels==0.12.2
