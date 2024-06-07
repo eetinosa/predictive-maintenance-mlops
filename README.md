@@ -1,6 +1,4 @@
-# predictive-maintenance-mlops
-
-## Predictive Maintenance Application for Factory Equipment
+# Predictive Maintenance Application for Factory Equipment - mlops
 
 ## Project Overview
 
@@ -28,3 +26,28 @@ This repository contains all the resources and source code for our Predictive Ma
 │   └── ui/                 # Frontend user interface components
 ├── tests/                  # Automated tests for the application and data processing
 └── README.md               # Project overview and setup instructions
+
+## Architecture
+
+The application is structured into three main components:
+
+1. **Data Layer**: Manages all data-related processes, from ingestion and storage to preprocessing. It uses a robust database system to handle both batch and real-time data efficiently.
+
+2. **Application Layer**: Hosts the core logic of the application, including the predictive models, data analysis tools, and maintenance scheduling functionalities. It integrates with the Data Layer to fetch predictive insights and operational data.
+
+3. **Presentation Layer**: Provides a user interface for interacting with the system, visualizing data, and receiving alerts. It is designed to be intuitive and accessible to all stakeholders.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8+
+- Docker (for containerization)
+- PostgreSQL or another chosen database system
+- Node.js (if developing custom UI components)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/eetinosa/predictive-maintenance-mlops.git
+   cd predictive-maintenance-mlops
