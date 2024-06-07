@@ -27,6 +27,8 @@ This repository contains all the resources and source code for our Predictive Ma
 ├── tests/                  # Automated tests for the application and data processing
 └── README.md               # Project overview and setup instructions
 
+```
+
 ## Architecture
 
 The application is structured into three main components:
